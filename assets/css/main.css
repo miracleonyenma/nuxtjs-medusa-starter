@@ -1,0 +1,9 @@
+body{
+  @apply font-sans text-gray-800 bg-gray-100;
+}
+
+@layer components{
+  .cta{
+   @apply text-gray-50 font-header bg-gray-900 px-6 py-3 rounded-xl;
+  }
+}
